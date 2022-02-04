@@ -1,0 +1,35 @@
+.hero-container{
+    background-image: url('../../../assets/images/img1.png');
+    height: 480px;
+    background-size: cover;
+    background-position: center;  
+}
+
+.tittle{
+    position: absolute;
+    width: 775px;
+    left: 280px;
+    top: 250px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    height: 76px;
+    left: 50px;
+    top: 30px;
+}
+
+.México{
+    color: #FA0287;
+}
+
+
