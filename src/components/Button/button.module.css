@@ -1,0 +1,13 @@
+.button {
+  appearance: none;
+  border: none;
+
+}
+
+.primary{
+    background-color: violet;
+}
+
+.secondary{
+    background-color: tomato;
+}
