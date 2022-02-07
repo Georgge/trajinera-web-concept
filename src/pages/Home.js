@@ -6,7 +6,6 @@ function Home() {
         <div>
             <HeroSection/>
             <Button type='primary'/>
-            <Button type='secondary'/>
         </div>
     )
 }
