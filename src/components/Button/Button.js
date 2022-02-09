@@ -11,5 +11,6 @@ function Button ( {title, type} ){
 export default Button
 Button.defaultProps = {
     title:'Title',
-    type:'primary'
+    type:'primary',
+    type: 'secondary'
 }
