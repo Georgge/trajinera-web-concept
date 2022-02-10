@@ -1,0 +1,29 @@
+.primary{
+    background-color: #D9D5D4;
+    color: black;
+    display: inline-block;
+    padding: 26.5px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.secondary{
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    padding: 26.5px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.primary:hover{
+    border-bottom: 1px solid #FA0287;
+    transition: 0.1s ease-in;
+}
+
+.secondary:hover{
+    border-bottom: 1px solid #FA0287;
+    transition: 0.1s ease-in;
+}
