@@ -1,5 +1,4 @@
 import styles from './topnavbar.module.css'
-import {Link} from 'react-router-dom'
 
 function NavbarOption({ nav, type }) {
 
@@ -11,6 +10,5 @@ function NavbarOption({ nav, type }) {
 }
 export default NavbarOption
 NavbarOption.defaultProps = {
-    type: 'primary',
     type: 'secondary'
 }
