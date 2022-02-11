@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf'
+import './assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf'
+
 
 ReactDOM.render(
   <React.StrictMode>
