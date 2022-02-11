@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf'
 import './assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf'
-
+import './assets/fonts/regular/la-regular-400.ttf'
+import './assets/fonts/brands/la-brands-400.ttf'
+import './assets/fonts/solid/la-solid-900.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

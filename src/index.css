@@ -23,3 +23,18 @@ code {
   font-family: 'Open_Sans';
   src: local('Open_Sans'), url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
 }
+
+@font-face{
+  font-family: 'brans';
+  src: local('brans'), url('./assets/fonts/brands/la-brands-400.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'regular';
+  src: local('regular'), url('./assets/fonts/regular/la-regular-400.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'solid';
+  src: local('solid'), url('./assets/fonts/solid/la-solid-900.ttf') format('truetype');
+}
