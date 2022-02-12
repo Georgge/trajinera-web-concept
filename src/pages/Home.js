@@ -3,10 +3,11 @@ import { Button } from '../components'
 
 function Home() {
     return (
-        <div>
+        <div >
             <HeroSection/>
-            <Button type='primary'/>
+            <Button type='primary'/> 
         </div>
+        
     )
 }
 export default Home
