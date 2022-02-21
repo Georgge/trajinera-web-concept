@@ -25,16 +25,16 @@ code {
 }
 
 @font-face{
-  font-family: 'brans';
-  src: local('brans'), url('./assets/fonts/brands/la-brands-400.ttf') format('truetype');
+  font-family: 'LineAwesomeBrands';
+  src: local('brands'), url('./assets/fonts/brands/la-brands-400.ttf') format('truetype');
 }
 
 @font-face{
-  font-family: 'regular';
+  font-family: 'LineAwesomeRegular';
   src: local('regular'), url('./assets/fonts/regular/la-regular-400.ttf') format('truetype');
 }
 
 @font-face{
-  font-family: 'solid';
+  font-family: 'LineAwesomeSolid';
   src: local('solid'), url('./assets/fonts/solid/la-solid-900.ttf') format('truetype');
 }
