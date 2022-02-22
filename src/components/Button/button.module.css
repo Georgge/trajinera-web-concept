@@ -6,16 +6,44 @@
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 22px;
   text-align: center;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+.primary {
+  background-color: #fa0287;
+}
+
+/* Sizes */
+.auto-size {
+  height: 44px;
+  width: auto;
+}
+.small {
+  height: 42px;
+  width: 120px;
+  font-size: 14px;
+}
+
+.normal {
   height: 44px;
   width: 206px;
-  left: 0px;
-  top: 0px;
 }
 
-.primary{
-    background-color: #FA0287;
+.large {
+  height: 46px;
+  width: 240px;
 }
 
+/* Icons */
+.icon-prefix {
+  margin-right: 6px;
+}
 
+.icon-sufix {
+  margin-left: 6px;
+}

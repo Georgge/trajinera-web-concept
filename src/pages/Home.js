@@ -14,6 +14,17 @@ function Home() {
             <Icon icon="" color="ligthPrimary" />
             <Icon icon="" color="neutralGray" />
             <ActivitiesSection />
+            <div>
+                <Button type="primary" size="auto-size" />
+                <br />
+                <Button type="primary" size="small" />
+                <br />
+                <Button type="primary" size="large" />
+                <br />
+                <Button type="primary" iconPrefix="" />
+                <br />
+                <Button type="primary" size="large" iconSufix="" />
+            </div>
         </div>
 
     )
