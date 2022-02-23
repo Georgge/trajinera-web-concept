@@ -1,5 +1,7 @@
 import HeroSection from '../sections/home/HeroSection/HeroSection'
 import { Button, Icon } from '../components'
+import ActivitiesSection from '../sections/home/ActivitiesSection/ActivitiesSection'
+
 
 function Home() {
     return (
@@ -11,6 +13,7 @@ function Home() {
             <Icon icon="" color="primaryBlack" />
             <Icon icon="" color="ligthPrimary" />
             <Icon icon="" color="neutralGray" />
+            <ActivitiesSection />
             <div>
                 <Button type="primary" size="auto-size" />
                 <br />

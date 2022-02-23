@@ -3,8 +3,8 @@ import theme from '../../theme';
 
 function Icon({
   icon = '',
-  size = 26,
-  color = 'mainBrand',
+  size = 48,
+  color = '#FFFFFF',
   type = 'solid'
 }) {
   return (
