@@ -43,7 +43,7 @@
 .navbar{
     padding-right: 75px;
     border-bottom: 1px solid white;
-    flex-grow: 1;
+    flex-grow: 1px;
     margin-left: 70px;
     display: flex;
     justify-content: flex-end;  

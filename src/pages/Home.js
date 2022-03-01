@@ -1,6 +1,7 @@
 import HeroSection from '../sections/home/HeroSection/HeroSection'
 import { Button, Icon } from '../components'
 import ActivitiesSection from '../sections/home/ActivitiesSection/ActivitiesSection'
+import FormSection from '../sections/home/FormSection/FormSection'
 
 
 function Home() {
@@ -24,7 +25,8 @@ function Home() {
                 <Button type="primary" iconPrefix="" />
                 <br />
                 <Button type="primary" size="large" iconSufix="" />
-            </div>
+        </div>
+        <FormSection/>
         </div>
 
     )
