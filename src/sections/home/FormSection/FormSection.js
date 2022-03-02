@@ -9,7 +9,7 @@ const { Password } = Input;
 function FormSection() {
 
     const formSuccess = (datos) => {
-        console.log('Formulario enviado:', datos)
+        console.log('Submitted form:', datos)
     }
 
     const formFailed = (error) => {
@@ -27,75 +27,75 @@ function FormSection() {
                 <img src={img2}></img>
 
                 <div className={styles.cont}>
-                    <Form name="formulario"
+                    <Form name="Form"
                         onFinish={formSuccess}
                         onFinishFailed={formFailed}>
 
                         <Item
-                            name='Nombre'
+                            name='Name'
                             rules={[{
                                 required: true,
-                                message: 'Por favor ingresa tu nombre'
+                                message: 'Please enter your name'
                             }]}>
                             <Input className={styles.form} placeholder="Nombre" />
                         </Item>
 
                         <Item
-                            name='Primer Apellido'
+                            name='First Last Name'
                             rules={[{
                                 required: true,
-                                message: 'Por favor ingresa tu primer apellido'
+                                message: 'Please enter your first last name'
                             }]}>
                             <Input className={styles.form} placeholder="Primer Apellido" />
                         </Item>
 
                         <Item
-                            name='Segundo Apellido'
+                            name='Second Last Name'
                             rules={[{
                                 required: true,
-                                message: 'Por favor ingresa tu segundo apellido'
+                                message: 'Please enter your second last name'
                             }]}>
                             <Input className={styles.form} placeholder="Segundo Apellido" />
                         </Item>
 
                         <Item
-                            name='Número Telefónico'
+                            name='Phone number'
                             rules={[{
                                 required: true,
-                                message: 'Por favor ingresa tu número telefónico'
+                                message: 'Please enter your phone number'
                             }]}>
                             <Input className={styles.form} placeholder="Número Telefónico" />
                         </Item>
 
                         <Item
-                            name='contraseña'
+                            name='Password'
                             rules={[{
                                 required: true,
-                                message: 'Por favor ingresa tu constraseña'
+                                message: 'Please enter your password'
                             }]}>
                             <Password className={styles.form} placeholder="Contraseña" />
                         </Item>
 
                         <Item
-                            name='Confirmar Contraseña'
+                            name='Confirm Password'
                             dependencies={['contraseña']}
                             hasFeedback
                             rules={[
                                 {
                                     required: true,
-                                    message: 'Por favor confirma tu contraseña!',
+                                    message: 'Please confirm your password!',
                                 },
                                 ({ getFieldValue }) => ({
                                     validator(_, value) {
                                         if (!value || getFieldValue('contraseña') === value) {
                                             return Promise.resolve();
                                         }
-                                        return Promise.reject(new Error('Las constraseñas no coinciden!'));
+                                        return Promise.reject(new Error('Passwords do not match!'));
                                     },
                                 }),
                             ]}
                         >
-                            <Password className={styles.form} placeholder="Confirmar Contraseña" />
+                            <Password className={styles.form} placeholder="Confirmar contraseña" />
                         </Item>
                             <Item>
                             <div className={styles.buton}>
