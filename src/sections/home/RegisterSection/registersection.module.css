@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1px;
+    flex-grow: 1;
 }
 
 .cont{
     display: flex;
     justify-content: flex-end;
     padding-right: 164px;
-    flex-grow: 1px;
+    flex-grow: 1;
     margin-left: 46px;
     margin-top: 54px;
 }

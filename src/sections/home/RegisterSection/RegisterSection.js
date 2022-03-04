@@ -1,17 +1,16 @@
 import { Button } from "../../../components"
 import { Input, Form } from 'antd';
-import styles from './formsection.module.css'
+import styles from './registersection.module.css'
 import img2 from '../../../assets/images/img2.png'
 
 const { Item } = Form;
 const { Password } = Input;
 
-function FormSection() {
+function RegisterSection() {
 
     const formSuccess = (datos) => {
         console.log('Submitted form:', datos)
     }
-
     const formFailed = (error) => {
         console.log('Error:', error)
     }
@@ -78,7 +77,7 @@ function FormSection() {
 
                         <Item
                             name='Confirm Password'
-                            dependencies={['contraseña']}
+                            dependencies={['Password']}
                             hasFeedback
                             rules={[
                                 {
@@ -87,7 +86,7 @@ function FormSection() {
                                 },
                                 ({ getFieldValue }) => ({
                                     validator(_, value) {
-                                        if (!value || getFieldValue('contraseña') === value) {
+                                        if (!value || getFieldValue('Password') === value) {
                                             return Promise.resolve();
                                         }
                                         return Promise.reject(new Error('Passwords do not match!'));
@@ -113,4 +112,4 @@ function FormSection() {
 
     )
 }
-export default FormSection
+export default RegisterSection
