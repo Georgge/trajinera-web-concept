@@ -1,6 +1,7 @@
 import HeroSection from '../sections/home/HeroSection/HeroSection'
 import { Button, Icon } from '../components'
 import ActivitiesSection from '../sections/home/ActivitiesSection/ActivitiesSection'
+import PromosSection from '../sections/home/PromosSections/PromosSection'
 
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
                 <br />
                 <Button type="primary" size="large" iconSufix="" />
             </div>
+            <PromosSection/>
         </div>
 
     )
