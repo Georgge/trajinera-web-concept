@@ -1,0 +1,30 @@
+.promo {
+    font-family: 'Open_Sans';
+    font-weight: 600;
+    background: #D9D5D4;
+    border-radius: 6px;
+    height: 382.88px;
+    text-align: left;
+    .container {
+        padding: 106px 36px 105.88px 36px;
+        color: #fff;
+        h2 {
+            color:#fff;
+            font-size: 24px;
+            font-weight: 700;
+            font-family: 'Montserrat';
+        }
+        p {
+            margin-top: 8px;
+        }
+        Button {
+            margin-top: 22px;
+            padding: 11px 46px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        Button:hover {
+            cursor: pointer;
+        }
+    }
+}
