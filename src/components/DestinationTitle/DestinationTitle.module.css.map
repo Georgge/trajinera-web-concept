@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,YAAY,CAAC;EACT,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG;CAKjB;;AAVD,AAMI,YANQ,CAMR,EAAE,CAAC;EACC,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,CAAC;CACnB",
+    "sources": [
+        "DestinationTitle.module.scss"
+    ],
+    "names": [],
+    "file": "DestinationTitle.module.css"
+}
