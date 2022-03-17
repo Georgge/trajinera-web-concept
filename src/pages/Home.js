@@ -1,8 +1,8 @@
 import HeroSection from '../sections/home/HeroSection/HeroSection'
 import { Button, Icon } from '../components'
 import ActivitiesSection from '../sections/home/ActivitiesSection/ActivitiesSection'
+import PromosSection from '../sections/home/PromosSections/PromosSection'
 import RegisterSection from '../sections/home/RegisterSection/RegisterSection'
-
 
 function Home() {
     return (
@@ -25,10 +25,11 @@ function Home() {
                 <Button type="primary" iconPrefix="" />
                 <br />
                 <Button type="primary" size="large" iconSufix="" />
+            </div>
+            <PromosSection/>
+            <RegisterSection/>
         </div>
-        <RegisterSection/>
-        </div>
-
     )
 }
+
 export default Home
