@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.destination {
+  max-width: 300px;
+  width: auto;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.destination h4 {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=DestinationTitle.module.css.map */

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  max-width: 200px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  height: auto;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  font-family: 'Open_Sans';
+  font-weight: 600;
+}
+
+.price h4 {
+  font-size: 20px;
+  margin: 0;
+  color: var(--primary-black);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price p {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 8px;
+  color: var(--ligth-primary);
+}
+/*# sourceMappingURL=DestinationPrice.module.css.map */

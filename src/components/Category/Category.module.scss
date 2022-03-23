@@ -1,0 +1,16 @@
+.category {
+    width: 132px;
+    font-family: 'Open_Sans';
+    font-size: 14px;
+    padding: 6px 0 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    p {
+        text-align: center;
+        height: auto;
+        margin: 0;
+    }
+}

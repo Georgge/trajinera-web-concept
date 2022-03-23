@@ -16,6 +16,7 @@ function Promotion ({title, description, background, width, buttonTitle, handleB
 
 Promotion.defaultProps = {
     buttonTitle: 'Descubre más',
+    width: 'auto'
 }
 
 export default Promotion
