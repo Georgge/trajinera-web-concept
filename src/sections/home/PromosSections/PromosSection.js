@@ -12,11 +12,10 @@ function PromosSection () {
             setState(data.data)
         })
     }, [])
-    console.log(state.length)
     return (
         <div className={`${styles.promos}`}>
             {state.map((item) => (
-                <Promotion title={item?.title} description={item?.description} background={item?.place.cover.normal}/>
+                <Promotion title={item?.title} description={item?.description} background={item?.place?.cover?.normal}/>
             ))}
         </div>
     )
