@@ -1,6 +1,8 @@
 import {configureStore} from "@reduxjs/toolkit";
-import exampleSlice from "./exampleSlice/example.slice";
+import promotionsSlice from "./promotionsSlice/promotions.slice";
 
 export default configureStore({
-        reducer: exampleSlice.reducer
+        reducer: {
+            promotions: promotionsSlice.reducer
+        }
     });
