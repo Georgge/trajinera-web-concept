@@ -1,14 +1,13 @@
 .card {
     background: white;
-    width: auto;
     max-width: 324px;
     border-radius: 6px;
-    height: 380px;
+    height: 360px;
     .container1 {
         height: 180px;
         display: flex;
         flex-direction: row;
-        margin: 24px 0 0 24px;
+        padding: 24px 0 0 24px;
         img {
             max-width: 241px;
             width: 100%;
@@ -16,7 +15,7 @@
             height: 100%;
             border-radius: 6px;
         }
-        p {
+        .dateText {
             position: absolute;
             color: #D9D5D4;
             font-family: 'Open_Sans';
@@ -25,10 +24,9 @@
             line-height: 19px;
             word-spacing: 2px;
             justify-content: center;
-            left: 265px;
             transform-origin: 8% 100%;
             transform: rotate(90deg);
-            margin: 0;
+            margin: 20px 0 0 250px;
         }
     }
     .container2 {
