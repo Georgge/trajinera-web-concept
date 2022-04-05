@@ -1,4 +1,5 @@
 import NavbarOption from './NavbarOption'
+import { Link } from 'react-router-dom'
 
 function TopNavbar() {
     return (
@@ -7,7 +8,7 @@ function TopNavbar() {
             <NavbarOption nav='ACTIVIDADES'/>
             <NavbarOption nav='PROMOCIONES'/>
             <NavbarOption nav='POPULARES'/>
-            <NavbarOption nav='ENTRAR' type='primary'/>
+            <Link to='/login'><NavbarOption nav='LOGIN' type='primary' /></Link>
         </div>
     )
 }

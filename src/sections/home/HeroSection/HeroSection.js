@@ -12,7 +12,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className={styles.text}>
-                <div className={styles.tittle}>Explora<span className={styles.mexico}>México</span> de otra manera.
+                <div className={styles.tittle}>Explora<span className={styles.mexico}> México</span> de otra manera.
                 </div>
             </div>
         </div>

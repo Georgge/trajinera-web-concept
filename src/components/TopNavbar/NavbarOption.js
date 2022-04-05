@@ -5,7 +5,7 @@ function NavbarOption({ nav, type }) {
     return (
 
         <div className={` ${styles[type]}`}>
-           {nav} 
+        {nav}
         </div>
     )
 }
