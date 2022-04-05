@@ -3,6 +3,7 @@ import { Button, Icon } from '../components'
 import ActivitiesSection from '../sections/home/ActivitiesSection/ActivitiesSection'
 import PromosSection from '../sections/home/PromosSections/PromosSection'
 import RegisterSection from '../sections/home/RegisterSection/RegisterSection'
+import DestinationsSection from '../sections/home/DestinationsSection/DestinationsSection'
 
 function Home() {
     return (
@@ -27,6 +28,7 @@ function Home() {
                 <Button type="primary" size="large" iconSufix="" />
             </div>
             <PromosSection/>
+            <DestinationsSection/>
             <RegisterSection/>
         </div>
     )
