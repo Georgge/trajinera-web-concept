@@ -1,9 +1,8 @@
 .card {
   background: white;
-  width: auto;
   max-width: 324px;
   border-radius: 6px;
-  height: 380px;
+  height: 360px;
 }
 
 .card .container1 {
@@ -15,7 +14,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 24px 0 0 24px;
+  padding: 24px 0 0 24px;
 }
 
 .card .container1 img {
@@ -26,7 +25,7 @@
   border-radius: 6px;
 }
 
-.card .container1 p {
+.card .container1 .dateText {
   position: absolute;
   color: #D9D5D4;
   font-family: 'Open_Sans';
@@ -37,12 +36,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  left: 265px;
   -webkit-transform-origin: 8% 100%;
           transform-origin: 8% 100%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  margin: 0;
+  margin: 20px 0 0 250px;
 }
 
 .card .container2 {

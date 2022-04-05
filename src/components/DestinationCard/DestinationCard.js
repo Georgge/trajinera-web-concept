@@ -10,17 +10,17 @@ const DestinationCard = props => {
         <div className={`${styles.card}`}>
             <div className={`${styles.container1}`}>
                 <img src={props.imgSrc} alt='Imagen'/>
-                <p>{props.date}</p>
+                <p className={`${styles.dateText}`}>{props.date}</p>
             </div>
             <div className={`${styles.container2}`}>
-                <Category categoryTitle={props.categoryTitle} categoryColor={props.categoryColor}/>
+                <Category categoryTitle={props.categoryTitle} categoryColor={props.categoryColor} categoryTitleColor={props.titleColor}/>
                 <p className={`${styles.days}`}>{props.days}</p>
             </div>
             <div className={`${styles.destTitle}`} >
                 <DestinationTitle title={props.destinationTitle}/>
             </div>
             <div className={`${styles.container3}`} >
-                <DestinationPrice/>
+                <DestinationPrice price={props.price}/>
                 <Button title={props.btnTitle} size='auto-size'/>
             </div>
         </div>
